@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>练习-4：Semantic HTML</title>
@@ -7,8 +7,69 @@
 </head>
 
 <body>
+<!--<div id="header">&lt;!&ndash; 本站所有网页的统一主标题 &ndash;&gt;
+    <h1>Navigational Links</h1>
+</div>-->
+<header>
+    <h1>Navigational Links</h1>
+</header>
 
-    <!-- 请将本目录下的none-semantic.html 内容改写成semantic html-->
+<!--<div id="nav">&lt;!&ndash; 本站统一的导航栏 &ndash;&gt;
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#posts">Posts</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>-->
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#posts">Posts</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!--<div id="main">&lt;!&ndash; 网页主体内容 &ndash;&gt;
+    <div id="section">
+        <div id="article">&lt;!&ndash; 此处包含一个 article（一篇文章），内容略…… &ndash;&gt;
+            <h2>here is a article title</h2>
+            <p>
+                here is a article content ...
+            </p>
+        </div>
+        <div id="aside">&lt;!&ndash; 侧边栏在主内容右侧 &ndash;&gt;
+            <h2>additional information</h2>
+            <ul>
+                <li><a href="#">additional link</a></li>
+                &lt;!&ndash; 侧边栏有n个超链接，略略略…… &ndash;&gt;
+            </ul>
+        </div>
+    </div>
+</div>-->
+<main>
+    <section>
+        <article>
+            <h2>here is a article title</h2>
+            <p>
+                here is a article content ...
+            </p>
+        </article>
+        <aside>
+            <h2>additional information</h2>
+            <ul>
+                <li><a href="#">additional link</a></li>
+                <!-- 侧边栏有n个超链接，略略略…… -->
+            </ul>
+        </aside>
+    </section>
+</main>
+
+<!--<div id="footer">&lt;!&ndash; 本站所有网页的统一页脚 &ndash;&gt;
+    <p>©ThoughtWorks 2020</p>
+</div>-->
+<footer>
+    <p>©ThoughtWorks 2020</p>
+</footer>
 
 </body>
 </html>
